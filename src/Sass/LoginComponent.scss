@@ -1,0 +1,48 @@
+$linkedblue : #0072b1;
+
+.loginWrapper{
+
+    display: flex;
+    flex-direction: column;
+
+    .linkedinLogo{
+        width: 80px;
+    }
+}
+
+
+.login-btn {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background-color:$linkedblue;
+    color: white;
+
+}
+
+.loginBox{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 5% 30%;
+
+    input,button {
+        margin: 1%;
+    }
+
+}
+
+
+.loginBottom{
+    width: 30%;
+    margin:-5% 30%;
+}
+
+
+.join-now{
+    color: #0072b1;
+}
+
+
+
+
